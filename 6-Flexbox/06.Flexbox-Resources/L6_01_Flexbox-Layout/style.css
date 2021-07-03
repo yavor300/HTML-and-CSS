@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Helvetica, sans-serif;
+    background: #eeeeee;
+    padding: 40px 90px;
+    margin: 0;
+}
+
+ header,
+ main,
+ aside,
+ footer {
+     background: white;
+     padding: 10px 22px;
+     box-shadow: 0 0 3px #989595;
+     border-radius: 6px;
+ }
+
+ header {
+     flex-basis: 100%;
+     flex-grow: 1;
+     flex-shrink: 1;
+     margin-bottom: 15px;
+ }
+
+ main {
+     flex-grow: 3;
+ }
+
+ aside {
+     flex-grow: 1;
+     margin-left: 15px;
+ }
+
+ footer {
+     flex-basis: 100%;
+     margin-top: 15px;
+     flex-grow: 1;
+     flex-shrink: 1;
+ }
+
+ header, footer {
+     padding-bottom: 60px;
+ }
+
+ main, aside {
+     padding-bottom: 100px;
+ }
