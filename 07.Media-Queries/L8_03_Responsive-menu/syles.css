@@ -1,0 +1,107 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    margin: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    background: white;
+    padding: 6px;
+    border-radius: 4px;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    background: #2d2d2d;
+    border-radius: 4px;
+    padding: 8px ;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.close-menu {
+    display: none;
+}
+
+@media all and (max-width: 780px) {
+    nav, ul {
+        flex-direction: column;
+    }
+
+    nav {
+        align-items: flex-start;
+        border: none;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    ul:before,
+    ul:after{
+        width: 100%;
+        content: '';
+        height: 2px;
+        background: black;
+        position: absolute;
+        left: 0;
+
+    }
+
+    ul:before {
+        top: 0;
+    }
+
+    ul:after {
+        bottom: 0;
+
+    }
+
+    h1 {
+        padding-left: 30px;
+    }
+
+    ul {
+        width: 100% ;
+    }
+
+    .close-menu {
+        display: block;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        padding-left: 0;
+    }
+
+    nav {
+        align-items: center;
+    }
+}
