@@ -1,0 +1,39 @@
+@media all and (max-width: 600px) {
+    .navigation {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .navigation-list {
+        flex-direction: column;
+        margin-top: 13px;
+    }
+
+    .header-img-wrapper {
+        display: none;
+    }
+
+    .header-content-text {
+        width: 75%;
+    }
+
+    .benefits {
+        flex-direction: column;
+    }
+
+    .benefit-item-text {
+        width: 70%;
+    }
+
+    .info-section {
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .info-section-item-title {
+        margin-top: 30px;
+    }
+
+    footer
+}

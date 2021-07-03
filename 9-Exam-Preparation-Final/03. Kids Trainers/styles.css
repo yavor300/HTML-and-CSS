@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+html {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+    background: #41bead;
+    align-items: center;
+    box-shadow: 1px 1px 5px -2px black;
+    position: relative;
+    z-index: 3;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin: 0 6px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-img img {
+    object-fit: cover;
+    width: 40%;
+}
+
+.teachers {
+    padding: 40px 80px;
+    text-align: center;
+    background: #ffb402;
+    color: white;
+}
+
+.teachers-content-title {
+    font-size: 30px;
+}
+
+.teachers-content-text {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.teacher-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher-card-content {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 40%;
+    margin-right: 55px;
+}
+
+.teacher-card-content-image {
+    flex-basis: 25%;
+    margin-right: 15px;
+    position: relative;
+    top: 27px;
+}
+
+.teacher-card-content-info {
+    flex-basis: 75%;
+}
+
+.teacher-card-content-image img {
+    width: 100%;
+    border-radius: 100px;
+    border: 5px solid #41bead;
+}
+
+.teacher-card-content-heading {
+    margin-bottom: 0;
+    color: #41bead;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.teacher-card-content-subheading {
+    margin-top: 9px;
+    font-size: 13px;
+    color: #b2b2b2;
+}
+
+.teacher-avatars {
+    padding: 200px 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teacher-avatars-image {
+    flex-basis: 10%;
+}
+
+.teacher-avatars-image img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 5px solid #41bead;
+}
+
+.teacher-avatars-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher-avatars-content-text {
+    text-align: center;
+}
+
+.teacher-avatars-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #41bead;
+    font-weight: bold;
+    font-size: 17px
+}
+
+.teacher-avatars-title {
+    margin: 0;
+    color: #b2b2b2;
+}
+
+.sign-up {
+    background: #66b9f8;
+    border-top: 8px solid #92cdfb;
+    padding: 45px 100px 150px 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sign-up-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.sign-up-text {
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sign-up-form {
+    margin-top: 50px;
+}
+
+.form-element {
+    padding: 12px;
+    margin-right: 55px;
+    background: #66b9f8;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-element::placeholder {
+    color: white;
+}
+
+.form-btn {
+    background: #ff9100;
+    padding: 12px 22px;
+    border-radius: 22px;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 1px 1px 5px -2px black;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 8px solid #919191;
+    background: #565656;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-title {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.footer-list-item {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer-list-item-link {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media {
+    margin: 16px 0 40px 0;
+}
+
+.social-media i {
+    color: white;
+    font-size: 26px;
+    margin: 0 8px;
+}
