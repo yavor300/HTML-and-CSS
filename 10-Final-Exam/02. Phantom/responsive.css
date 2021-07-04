@@ -1,0 +1,167 @@
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 1.95em;
+    }
+
+    header p {
+        margin-top: 1em;
+    }
+
+    #header {
+        padding: 1em 0 0 0;
+    }
+
+    .tiles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .tiles article {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+
+    #footer .inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner {
+        width: 100%;
+    }
+
+    .inner section:nth-child(2) {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .inner section:nth-child(1) {
+        order: 2;
+        width: 100%;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul.copyright {
+        order: 3;
+        padding: 0;
+        margin: 0;
+    }
+
+    #footer .inner .copyright {
+        margin-top: 2em;
+    }
+
+    .inner section h2 {
+        font-size: 19px;
+    }
+
+    .fields {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    #footer .inner section:nth-child(2) {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #footer section section:nth-child(1) h2 {
+        margin-top: 35px;
+    }
+
+    #footer .inner section:nth-child(1) {
+        width: 100%;
+    }
+
+    form .fields .field.half {
+        width: 100%;
+    }
+
+    input.primary {
+        width: 100%;
+    }
+
+    ul.actions li {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    #main .inner {
+        padding: 0;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 1em 0 0 0;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 15px;
+        margin-top: 1em;
+    }
+
+    .tiles {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .tiles article {
+        margin: 20px 20px 0 0;
+        width: 40%;
+    }
+
+    #footer .inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer.inner section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer .inner section:nth-child(2) {
+        margin-left: 0;
+        width: 50%;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #footer .inner section:nth-child(1) {
+        width: 33%;
+        margin-right: 2.5em;
+    }
+
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+}
